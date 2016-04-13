@@ -3,6 +3,11 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Use Pathogen for plugins
+" To disable a plugin add it's bundle name to the following list
+let g:pathogen_disabled = []
+
+" Uncomment the following line to disable vim-go
+" call add(g:pathogen_disabled, vim-go)
 execute pathogen#infect()
 
 " Sets how many lines of history VIM has to remember
